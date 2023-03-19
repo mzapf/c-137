@@ -17,7 +17,7 @@ header {
 }
 
 main {
-    background-color: lightgreen;
+    background-color: hwb(120 56% 7%);
     border: 2px solid green;
 }
 
@@ -45,4 +45,16 @@ div.banner img.svg {
 
 div.banner img.gif {
     max-width: 10%;
+}
+
+@media (max-width: 45em) {
+    main {
+        background-color: #76c476;
+    }
+}
+
+@media (max-width: 30em) {
+    main {
+        background-color: #5a945a;
+    }
 }
