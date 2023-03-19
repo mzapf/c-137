@@ -4,23 +4,45 @@
     box-sizing: border-box;
 }
 
+body {
+    line-height: 1.5;
+    padding: 0 1em;
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
 header {
     background-color: lightcoral;
+    border: 2px solid red;
 }
 
 main {
     background-color: lightgreen;
+    border: 2px solid green;
 }
 
 footer {
     background-color: lightblue;
+    border: 2px solid blue;
 }
 
-div.banner {
+p {
+    width: clamp(45ch, 50%, 75ch);
+}
+
+.banner,
+.card,
+.foot {
+    margin: 1em;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-div.banner img {
-    max-height: 25vh;
+div.banner img.svg {
+    max-width: 40%;
+}
+
+div.banner img.gif {
+    max-width: 10%;
 }
