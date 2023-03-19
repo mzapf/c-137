@@ -1,50 +1,26 @@
-*,
-*::before,
-*::after {
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-* {
-    margin: 0;
+header {
+    background-color: lightcoral;
 }
 
-html,
-body {
-    height: 100%;
+main {
+    background-color: lightgreen;
 }
 
-body {
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
+footer {
+    background-color: lightblue;
 }
 
-img,
-picture,
-video,
-canvas,
-svg {
-    display: block;
-    max-width: 100%;
+div.banner {
+    display: flex;
+    justify-content: center;
 }
 
-input,
-button,
-textarea,
-select {
-    font: inherit;
-}
-
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    overflow-wrap: break-word;
-}
-
-#root,
-#__next {
-    isolation: isolate;
+div.banner img {
+    max-height: 25vh;
 }
