@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     line-height: 1.5;
     padding: 0 1em;
@@ -15,50 +11,61 @@ body {
     margin: 0 auto;
 }
 
-header {
-    background-color: lightcoral;
-    border: 2px solid red;
-}
-
-main {
-    background-color: lightgreen;
-    border: 2px solid green;
-}
-
-footer {
-    background-color: lightblue;
-    border: 2px solid blue;
-}
-
-p {
-    width: clamp(45ch, 50%, 75ch);
-}
-
-.banner,
+header,
+footer,
 .card,
-.foot {
-    margin: 1em;
+#container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-div.banner img.svg {
-    max-width: 40%;
+#container {
+    margin: 2rem 0;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-evenly;
 }
 
-div.banner img.gif {
-    max-width: 10%;
+.card {
+    background-color: lightblue;
+    padding: 1rem;
+    border-radius: 3%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
-@media (max-width: 45em) {
-    main {
-        background-color: #76c476;
+.card img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+img.svg {
+    max-width: 70%;
+}
+
+img.gif {
+    max-width: 15%;
+}
+
+/* Tablets */
+@media (min-width: 30rem) {
+    .card {
+        background-color: lightcoral;
+        width: 30%;
     }
 }
 
-@media (max-width: 30em) {
-    main {
-        background-color: #5a945a;
+/* Desktop */
+@media (min-width: 45rem) {
+    #container {
+        gap: 2rem;
+    }
+
+    .card {
+        background-color: lightgreen;
+        width: 20%;
     }
 }
