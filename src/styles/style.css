@@ -18,6 +18,10 @@ footer,
 .card,
 #container {
     display: flex;
+}
+
+header,
+footer {
     justify-content: center;
     align-items: center;
 }
@@ -26,8 +30,7 @@ footer,
     margin: 2rem 0;
     gap: 1rem;
     flex-wrap: wrap;
-    align-items: stretch;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .card {
@@ -35,7 +38,6 @@ footer,
     padding: 1rem;
     border-radius: 3%;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
 }
 
@@ -56,7 +58,7 @@ img.gif {
 @media (min-width: 30rem) {
     .card {
         background-color: lightcoral;
-        width: 30%;
+        width: 45%;
     }
 
     body {
@@ -72,7 +74,7 @@ img.gif {
 
     .card {
         background-color: lightgreen;
-        width: 20%;
+        width: 30%;
     }
 
     body {
@@ -83,6 +85,6 @@ img.gif {
 /* Dark theme */
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: #121212;
+        background-color: #1b1b1b;
     }
 }
