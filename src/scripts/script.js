@@ -49,7 +49,7 @@ myPromise
                 <div class="card">
                     <img src=${characters[i].image} alt="Character image."/>
                     <strong>${characters[i].name}</strong>
-                    <p>Genero: ${translateGender(characters[i].gender)}</p>
+                    <p>Género: ${translateGender(characters[i].gender)}</p>
                     <p>Especie: ${translateSpecies(characters[i].species)}</p>
                     <p>Estado: ${translateStatus(characters[i].status)}</p>
                     <p>Origen: ${translateOrigin(characters[i].origin.name)}</p>

@@ -9,7 +9,7 @@ body {
     padding: 0 1em;
     max-width: 60rem;
     margin: 0 auto;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 header,
@@ -34,8 +34,8 @@ footer,
     padding: 1rem;
     border-radius: 3%;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .card img {
@@ -59,7 +59,7 @@ img.gif {
     }
 
     body {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -75,6 +75,6 @@ img.gif {
     }
 
     body {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 }
