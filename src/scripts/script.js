@@ -1,5 +1,12 @@
 const translateGender = (gender) => {
-    return gender === "Male" ? "Hombre" : "Mujer";
+    switch (gender) {
+        case 'Male':
+            return 'Hombre';
+        case 'Female':
+            return 'Mujer';
+        default:
+            return 'Desconocido';
+    }
 }
 
 const translateSpecies = (species) => {
@@ -20,12 +27,10 @@ const translateStatus = (status) => {
 const translateOrigin = (origin) => {
     if (origin === "unknown") {
         return "Desconocido";
-    }
-
-    if (origin.includes("Earth")) {
-        return origin.replace("Earth", "Tierra");
     } else {
-        return origin;
+        return origin
+            .replace("Earth", "Tierra")
+            .replace("Replacement Dimension", "C-131");
     }
 }
 
