@@ -9,13 +9,18 @@ body {
     padding: 0 1em;
     max-width: 60rem;
     margin: 0 auto;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lora', serif;
     font-size: 1.4rem;
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 1em gray, 0 0 0.2em gray;
     background-image: url('https://media.gq.com/photos/5af3414ba8907e135c645013/16:9/pass/rick-and-morty-season-4-gq.jpg');
     background-attachment: fixed;
     background-size: cover;
+}
+
+strong,
+footer p {
+    font-family: 'Montserrat', sans-serif;
 }
 
 header,
