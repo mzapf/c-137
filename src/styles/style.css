@@ -57,7 +57,7 @@ footer p {
 #container {
     gap: 1rem;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .card {
@@ -100,9 +100,13 @@ a {
 }
 
 /* Tablets */
-@media (min-width: 30rem) {
+@media (min-width: 27.5rem) {
     #container .card {
         width: 45%;
+    }
+
+    #container {
+        justify-content: space-between;
     }
 
     body {
@@ -111,7 +115,7 @@ a {
 }
 
 /* Desktop */
-@media (min-width: 45rem) {
+@media (min-width: 50rem) {
     #container {
         gap: 2rem;
     }
