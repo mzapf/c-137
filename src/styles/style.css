@@ -10,7 +10,6 @@ body {
     max-width: 60rem;
     margin: 0 auto;
     font-family: 'Lora', serif;
-    font-size: 1.4rem;
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 1em gray, 0 0 0.2em gray;
     background-image: url('../images/light-bg.jpg');
@@ -47,7 +46,6 @@ main {
 }
 
 footer p {
-    font-size: 1.5rem;
     text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em white;
     background-color: rgba(32, 32, 32, 0.5);
     padding: 0.5rem;
@@ -122,10 +120,6 @@ a {
 
     #container .card {
         width: 30%;
-    }
-
-    body {
-        font-size: 1rem;
     }
 }
 
