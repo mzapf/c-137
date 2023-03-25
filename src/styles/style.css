@@ -71,6 +71,12 @@ footer p {
     border-radius: 50%;
 }
 
+#container .card {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 img.svg {
     max-width: 70%;
 }
