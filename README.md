@@ -1,0 +1,3 @@
+# Dimensión C-137
+
+La dimensión C-137 es uno de los muchos universos del multiverso, y el universo original donde nació y creció el Rick mainstream. Esta es una de las muchas dimensiones donde la esposa de Rick, Diane, y su hija Beth fueron asesinadas cuando Beth era una niña, y como resultado, Summer y Morty nunca existieron. Antes de que se revelara que los Rick y Morty que seguimos en la serie proceden cada uno de una dimensión diferente, se pensaba, incluso por el propio Morty, que la "Dimensión C-137" se refería a la dimensión Cronenberged donde se originó nuestro Morty y tuvieron lugar los seis primeros episodios de la serie de televisión.
