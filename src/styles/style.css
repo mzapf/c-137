@@ -18,16 +18,25 @@ body {
     background-size: cover;
 }
 
+h1,
+h2,
 strong,
 footer p {
     font-family: 'Montserrat', sans-serif;
 }
 
 header,
+main,
 footer,
 .card,
 #container {
     display: flex;
+}
+
+main {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
 }
 
 header,
@@ -46,7 +55,7 @@ footer p {
 }
 
 #container {
-    margin: 2rem 0;
+    /* margin: 2rem 0; */
     gap: 1rem;
     flex-wrap: wrap;
     justify-content: center;
@@ -75,6 +84,8 @@ img.gif {
 
 a {
     color: whitesmoke;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 #toggle-theme {
@@ -91,7 +102,7 @@ a {
 
 /* Tablets */
 @media (min-width: 30rem) {
-    .card {
+    #container .card {
         width: 45%;
     }
 
@@ -106,7 +117,7 @@ a {
         gap: 2rem;
     }
 
-    .card {
+    #container .card {
         width: 30%;
     }
 
