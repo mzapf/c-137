@@ -34,6 +34,15 @@ const translateOrigin = (origin) => {
     }
 }
 
+const mode = document.getElementById('toggle-theme');
+mode.addEventListener('click', () => {
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.toggle('light-mode');
+    } else {
+        document.body.classList.toggle('dark-mode');
+    }
+});
+
 const API_CHARACTERS = "https://rickandmortyapi.com/api/character";
 const myPromise = fetch(API_CHARACTERS);
 

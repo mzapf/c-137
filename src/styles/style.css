@@ -77,6 +77,18 @@ a {
     color: whitesmoke;
 }
 
+#toggle-theme {
+    cursor: pointer;
+}
+
+.light-mode {
+    background-image: url('https://media.gq.com/photos/5af3414ba8907e135c645013/16:9/pass/rick-and-morty-season-4-gq.jpg');
+}
+
+.dark-mode {
+    background-image: url('https://programminginsider.com/wp-content/uploads/2020/05/rickmorty.jpg');
+}
+
 /* Tablets */
 @media (min-width: 30rem) {
     .card {
@@ -103,7 +115,6 @@ a {
     }
 }
 
-/* Dark theme */
 @media (prefers-color-scheme: dark) {
     body {
         background-image: url('https://programminginsider.com/wp-content/uploads/2020/05/rickmorty.jpg');
