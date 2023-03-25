@@ -9,8 +9,13 @@ body {
     padding: 0 1em;
     max-width: 60rem;
     margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.4rem;
-    background-color: whitesmoke;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 1em gray, 0 0 0.2em gray;
+    background-image: url('https://media.gq.com/photos/5af3414ba8907e135c645013/16:9/pass/rick-and-morty-season-4-gq.jpg');
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 header,
@@ -26,6 +31,14 @@ footer {
     align-items: center;
 }
 
+footer p {
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em white;
+    background-color: rgba(32, 32, 32, 0.5);
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
 #container {
     margin: 2rem 0;
     gap: 1rem;
@@ -34,9 +47,9 @@ footer {
 }
 
 .card {
-    background-color: lightblue;
+    background-color: rgba(32, 32, 32, 0.5);
     padding: 1rem;
-    border-radius: 3%;
+    border-radius: 5rem;
     flex-direction: column;
     align-items: center;
 }
@@ -54,10 +67,13 @@ img.gif {
     max-width: 15%;
 }
 
+a {
+    color: whitesmoke;
+}
+
 /* Tablets */
 @media (min-width: 30rem) {
     .card {
-        background-color: lightcoral;
         width: 45%;
     }
 
@@ -73,7 +89,6 @@ img.gif {
     }
 
     .card {
-        background-color: lightgreen;
         width: 30%;
     }
 
@@ -85,6 +100,6 @@ img.gif {
 /* Dark theme */
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: #1b1b1b;
+        background-image: url('https://programminginsider.com/wp-content/uploads/2020/05/rickmorty.jpg');
     }
 }
