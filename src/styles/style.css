@@ -85,7 +85,14 @@ img.gif {
 a {
     color: whitesmoke;
     font-weight: bold;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px -0.1rem inset;
     text-decoration: none;
+}
+
+a:hover,
+a:active,
+a:focus {
+    box-shadow: rgba(255, 255, 255, 0.25) 0px -3rem inset;
 }
 
 #toggle-theme {
