@@ -104,21 +104,13 @@ a {
 }
 
 /* Tablets */
-@media (min-width: 27.5rem) {
+@media (min-width: 30rem) {
     #container .card {
         width: 45%;
     }
 
     #container {
         justify-content: space-between;
-    }
-
-    body {
-        font-size: 1.2rem;
-    }
-
-    footer {
-        font-size: 2rem;
     }
 }
 
@@ -130,6 +122,14 @@ a {
 
     #container .card {
         width: 30%;
+    }
+
+    body {
+        font-size: 1.2rem;
+    }
+
+    footer {
+        font-size: 2rem;
     }
 }
 
