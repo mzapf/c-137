@@ -1,12 +1,9 @@
 const translateGender = (gender) => {
-    switch (gender) {
-        case 'Male':
-            return 'Hombre';
-        case 'Female':
-            return 'Mujer';
-        default:
-            return 'Desconocido';
+    const data = {
+        Male: 'Hombre',
+        Female: 'Mujer'
     }
+    return data[gender] ?? 'Desconocido'
 }
 
 const translateSpecies = (species) => {
