@@ -11,14 +11,11 @@ const translateSpecies = (species) => {
 }
 
 const translateStatus = (status) => {
-    switch (status) {
-        case "Alive":
-            return "Vivo";
-        case "Dead":
-            return "Muerto";
-        default:
-            return "Desconocido";
+    const data = {
+        Alive: "Vivo",
+        Dead: "Muerto",
     }
+    return data[status] ?? "Desconocido";
 }
 
 const translateOrigin = (origin) => {
